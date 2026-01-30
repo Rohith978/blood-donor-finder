@@ -1,0 +1,5 @@
+{
+  "name": "Blood Donor Finder",
+  "description": "A speed-focused application for hospital staff to quickly identify nearby compatible blood donors during urgent scenarios.",
+  "requestFramePermissions": []
+}
