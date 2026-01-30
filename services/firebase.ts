@@ -4,12 +4,12 @@ import { getFirestore } from "firebase/firestore";
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-    apiKey: "AIzaSyBSrzR3FPfifIHOx-rCPnWBNjOxBJ08lSY",
-    authDomain: "blood-donor-finder-eb088.firebaseapp.com",
-    projectId: "blood-donor-finder-eb088",
-    storageBucket: "blood-donor-finder-eb088.firebasestorage.app",
-    messagingSenderId: "39537423600",
-    appId: "1:39537423600:web:148d99986c8fcb15807e35"
+    apiKey: import.meta.env.VITE_FIREBASE_API_KEY,
+    authDomain: import.meta.env.VITE_FIREBASE_AUTH_DOMAIN,
+    projectId: import.meta.env.VITE_FIREBASE_PROJECT_ID,
+    storageBucket: import.meta.env.VITE_FIREBASE_STORAGE_BUCKET,
+    messagingSenderId: import.meta.env.VITE_FIREBASE_MESSAGING_SENDER_ID,
+    appId: import.meta.env.VITE_FIREBASE_APP_ID
 };
 
 // Initialize Firebase
